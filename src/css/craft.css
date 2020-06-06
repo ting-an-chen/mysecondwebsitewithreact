@@ -1,0 +1,102 @@
+.picture_container{
+    position: absolute;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title{
+    text-align: left;
+    font-size: 200%;
+    padding:15px;
+    margin-top:30px;
+
+}
+
+.hvrbox2 {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+    width: 450px;
+    height: 450px;
+    box-sizing: border-box;
+    border-radius:10px;
+    margin:5px;
+    float:left;
+}
+
+.animate-box {
+    opacity: 0; }
+
+.project {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit:cover;
+}
+
+.hvrbox2:hover .word_container,
+.hvrbox2.active .word_container {
+    opacity: 1;
+}
+.hvrbox2 .word_container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+.hvrbox2 .word_container .description {
+    margin-top: 30px;
+    display: block;
+    position: relative;
+    height: 450px;
+}
+
+.hvrbox2 .word_container h3 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px; 
+    padding-left:15px;
+    text-align: left;
+}
+
+.hvrbox2 .word_container span1 {
+    display: block;
+    color: #999999;
+    font-size: 16px;
+    text-align: left;
+    padding-left:15px;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+@media (min-width: 992px){
+.page_container
+    {width: 50%;}
+}

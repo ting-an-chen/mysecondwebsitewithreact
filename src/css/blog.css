@@ -1,0 +1,293 @@
+#content-wrap {
+    padding: 30px 0 36px 0;
+}
+.blogcontent, .row {
+    position: relative;
+    padding: 0 18px;
+    min-height: 1px;
+    width: 66.66667%;
+    float: left;
+}
+
+.entry {
+    padding-bottom: 12px;
+    margin-bottom: 24px;
+}
+
+.entry-header{
+    text-align:left;
+}
+.entry-title{
+    font-size:200%;
+    color: #2c6688;
+    font-family:'Mansalva'; 
+    text-decoration:none;
+    margin-top: 0;
+    text-align:left;　
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration:none;
+}
+
+.entry-content{
+    text-align: left;
+    font-size:110%;
+}
+
+
+/*sidebar for the catagory search*/
+
+#sidebar {
+    padding-top: 0px;
+    padding-left: 40px;
+    width: 33.33333%;
+
+}
+
+#sidebar .widget .dropdown-btn{
+    background-color: Transparent;
+    color:  gray;
+    border: none;
+    cursor:pointer;
+    outline:none;
+
+}
+
+#sidebar .tagcloud {
+    margin: 18px 0 24px -12px;
+    padding: 0;
+    font-size: 17px;
+}
+
+#sidebar .tagcloud a {
+    display: inline-block;
+    margin: 6px 6px 6px 6px;
+    padding: 6px 15px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #E9EBEE;
+    text-decoration: none;
+    letter-spacing: .5px;
+    color: #778888;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-radius: 3px;
+    font-size: 60%;
+}
+
+h3{
+    color: #2c6688;
+    font-family:'Mansalva'; 
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+/*for the prev,next button*/
+
+.pagenav {
+    text-align: left;
+    margin-top: 12px;
+    padding-top: 18px;
+    margin-bottom: 48px;
+    border-top: 1px solid #E8E8E8;
+    font-family:'Mansalva';
+
+}
+
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+    color: #6593ad;
+}
+
+.active {
+  background-color: green;
+  color: white;
+}
+
+.dropdown-btn button:hover, .dropdown-container a:hover {
+    color: #f1f1f1;
+  }
+
+
+ /* fixed width for IE8 */
+ .ie .row { width: 1000px; }
+ 
+ .narrow .row { max-width: 980px; }
+ 
+ .row .row { 
+     width: auto; 
+     max-width: none; 
+     margin: 0 -18px; 
+ }
+ 
+ /* row clearing */
+ .row:before,
+ .row:after {
+     content: " ";
+     display: table;
+ }
+ .row:after { clear: both; }
+ 
+ .column, .columns {
+    position: relative;
+    padding: 0 18px;
+    min-height: 1px;
+    float: left;
+ }
+ .column.centered, .columns.centered  {
+     float: none;
+     margin: 0 auto;
+ }
+ 
+ /* removed gutters */
+ .row.collapsed > .column,
+ .row.collapsed > .columns,
+ .column.collapsed, .columns.collapsed  { padding: 0; }
+ 
+ [class*="column"] + [class*="column"]:last-child { float: right; }
+ [class*="column"] + [class*="column"].end { float: right; }
+ 
+
+ 
+ /* Offsets */
+ .row .offset-1    { margin-left: 8.33333%; }
+ .row .offset-2    { margin-left: 16.66667%; }
+ .row .offset-3    { margin-left: 25%; }
+ .row .offset-4    { margin-left: 33.33333%; }
+ .row .offset-5    { margin-left: 41.66667%; }
+ .row .offset-6    { margin-left: 50%; }
+ .row .offset-7    { margin-left: 58.33333%; }
+ .row .offset-8    { margin-left: 66.66667%; }
+ .row .offset-9    { margin-left: 75%; }
+ .row .offset-10   { margin-left: 83.33333%; }
+ .row .offset-11   { margin-left: 91.66667%; }
+ 
+ /* block grids
+ --------------------------------------------------------------------- */
+ .bgrid-sixths [class*="column"]   { width: 16.66667%; }
+ .bgrid-quarters [class*="column"] { width: 25%; }
+ .bgrid-thirds [class*="column"]   { width: 33.33333%; }
+ .bgrid-halves [class*="column"]   { width: 50%; }
+ 
+ [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
+ 
+ /* Left clearing for block grid columns - columns that changes width in
+ different screen sizes. Allows columns with different heights to align
+ properly.
+ --------------------------------------------------------------------- */
+ .first { clear: left; }   /* first column in default screen */
+ .s-first { clear: none; } /* first column in smaller screens */
+ 
+ /* smaller screens
+ --------------------------------------------------------------- */
+ @media only screen and (max-width: 900px) {
+ 
+    /* block grids on small screens */
+    .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
+    .s-bgrid-quarters [class*="column"] { width: 25%; }
+    .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
+    .s-bgrid-halves [class*="column"]   { width: 50%; }
+ 
+    /* block grids left clearing */
+    .first { clear: none; }
+    .s-first { clear: left; }
+ 
+ }
+ 
+ /* screenwidth less than 768px - mobile/smaller tablets
+ --------------------------------------------------------------- */
+ @media only screen and (max-width: 767px) {
+ 
+    .row {
+        width: 480px;
+        margin: 0 auto;
+       padding: 0;
+     }
+    .column, .columns {
+        width: auto !important;      
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+       padding: 0 30px;
+    }
+    .row .row { 
+        width: auto; 
+        max-width: none; 
+        margin: 0 -30px; 
+    }
+ 
+    [class*="column"] + [class*="column"]:last-child { float: none; }
+    [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
+ 
+    /* Offsets */
+    .row .offset-1    { margin-left: 0%; }
+    .row .offset-2    { margin-left: 0%; }
+    .row .offset-3    { margin-left: 0%; }
+    .row .offset-4    { margin-left: 0%; }
+    .row .offset-5    { margin-left: 0%; }
+    .row .offset-6    { margin-left: 0%; }
+    .row .offset-7    { margin-left: 0%; }
+    .row .offset-8    { margin-left: 0%; }
+    .row .offset-9    { margin-left: 0%; }
+    .row .offset-10   { margin-left: 0%; }
+    .row .offset-11   { margin-left: 0%; }
+ }
+ 
+ /* screenwidth less than or equal 480px - mobile wide
+ --------------------------------------------------------------- */
+ @media only screen and (max-width: 480px) {
+ 
+    .row { width: auto; }
+ 
+ }
+ 
+ /* larger screens
+ --------------------------------------------------------------- */
+ @media screen and (min-width: 1200px) {
+ 
+    .wide .row { max-width: 1180px; }
+ 
+ }
+ 
+ /* ------------------------------------------------------------------ */
+ /* e. Others
+ /* ------------------------------------------------------------------ */
+ 
+ /*  1. Clearing
+     (http://nicolasgallagher.com/micro-clearfix-hack/
+ --------------------------------------------------------------------- */
+ 
+ .group:before,
+ .group:after {
+     content: " ";
+     display: table;
+ }
+ .group:after {
+     clear: both;
+ }
+
+#blog4pic{
+    display: block;
+    width:50%;
+    float:left;
+    padding:5px;
+}
