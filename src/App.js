@@ -10,6 +10,7 @@ import Contact from './components/Contact.js';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 
+
 class App extends Component {
   render() {
     return (
@@ -25,7 +26,6 @@ class App extends Component {
             <li><Link to={'/contact'} className="nav-link">CONTACT</Link></li>
           </ul>
           </nav>
-          <hr />
           <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/blog' component={Blog} />
