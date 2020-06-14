@@ -13,14 +13,14 @@ h1, p{
   color: white;
 }
 
-.container
-{
-  height:100%;
-  width:100%;
+.container{
+  height:500px;
+  width:930px;
   font-family: 'Poppins', sans-serif;
 }
 
 .row{
   height: 150px;
   width: 450px;
+ 
 }

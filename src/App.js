@@ -16,7 +16,6 @@ class App extends Component {
     return (
     <Router>
         <div>
-          <h2>Hi</h2>
           <nav>
           <ul>
             <li><Link to={'/'} className="nav-link"> HOME </Link></li>
