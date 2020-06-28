@@ -16,7 +16,7 @@ class App extends Component {
     return (
     <Router>
         <div>
-          <nav>
+         <nav>
           <ul>
             <li><Link to={'/'} className="nav-link"> HOME </Link></li>
             <li><Link to={'/blog'} className="nav-link">BLOG</Link></li>
@@ -24,7 +24,7 @@ class App extends Component {
             <li><Link to={'/craft'} className="nav-link">CRAFT</Link></li>
             <li><Link to={'/contact'} className="nav-link">CONTACT</Link></li>
           </ul>
-          </nav>
+         </nav>
           <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/blog' component={Blog} />
