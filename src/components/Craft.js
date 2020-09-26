@@ -4,7 +4,7 @@ class Craft extends Component {
   render() {
     return (
         <div>
-          <h2>About</h2>
+          <h2>Craft</h2>
         </div>
     );
   }
