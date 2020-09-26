@@ -8,6 +8,10 @@ class BlogPost extends Component {
             <div class="entry-date">{this.props.date}</div>
             <h2 class="entry-title">{this.props.title}</h2>
           </header>
+
+          <div class="entry-content">
+            {this.props.content}
+          </div>
         </div>
     );
   }
