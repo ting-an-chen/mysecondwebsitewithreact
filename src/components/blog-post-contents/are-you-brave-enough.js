@@ -1,7 +1,7 @@
 import React from 'react';
 
-const areYouBraveEnoughContent = (<React.Fragment>
-<p>First of all, I have to admit that there are still a lot of things I don't know about hospice care. I am
+const areYouBraveEnoughIntro = (<React.Fragment>
+            <p>First of all, I have to admit that there are still a lot of things I don't know about hospice care. I am
               still learning from my patients and all the experiences i had. This is a piece of memory from me and a bit
               of my own thoughts.... </p>
             <p>Miss pretty had been staying in our ward for one and a half months already, but I never had a chance to
@@ -13,6 +13,9 @@ const areYouBraveEnoughContent = (<React.Fragment>
               recovered and was preparing her to go back home, but then one day her condition got worse, she suffered
               from more severe dyspepsia and a relapse fever. Her husband had been taking care of her through the whole
               time.</p>
+</React.Fragment>);
+
+const areYouBraveEnoughContent = (<React.Fragment>
             <p>The doctor already talked with her and her husband about signing DNR(Do Not Resuscitation)agreement a
               month ago when she came to the hospital, that there is no more better treatment to cure and control her
               cancer. Miss pretty claimed that she wanted no pain and no more suffering when the end of life comes.</p>
@@ -89,4 +92,4 @@ const areYouBraveEnoughContent = (<React.Fragment>
               home in the early morning.</p>
 </React.Fragment>);
 
-export default areYouBraveEnoughContent;
+export {areYouBraveEnoughIntro, areYouBraveEnoughContent};
