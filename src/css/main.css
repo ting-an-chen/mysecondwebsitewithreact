@@ -13,12 +13,9 @@
  
 
 .main {
-    background-color: #111; /* Black */
-    font-family:'Mansalva'; 
-    color:gray; 
-    text-align:center;
-    
-}  
+    font-family:'Mansalva';
+}
+
 .mainpadding{
     padding:30px 30px 30px 30px;
 }

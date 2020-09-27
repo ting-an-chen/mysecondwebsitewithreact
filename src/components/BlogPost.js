@@ -4,12 +4,12 @@ class BlogPost extends Component {
   render() {
     return (
         <div>
-          <header class="entry-header">
-            <div class="entry-date">{this.props.date}</div>
-            <h2 class="entry-title">{this.props.title}</h2>
+          <header className="entry-header">
+            <div className="entry-date">{this.props.date}</div>
+            <h2 className="entry-title entry">{this.props.title}</h2>
           </header>
 
-          <div class="entry-content">
+          <div className="entry-content entry">
             {this.props.content}
           </div>
         </div>

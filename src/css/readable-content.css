@@ -1,0 +1,33 @@
+@media screen and (max-width: 425px) {
+    #page_container {
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    #page_container {
+      width: 80%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #page_container {
+      width: 80%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    #page_container {
+      width: 70%;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    #page_container {
+      width: 50%;
+    }
+}
+
+#page_container {
+    margin: auto;
+}
