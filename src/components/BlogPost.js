@@ -13,7 +13,7 @@ class BlogPost extends Component {
       }
 
   toggleReadMoreLess() {
-      if (this.state.readMoreLessButtonText == readMore) {
+      if (this.state.readMoreLessButtonText === readMore) {
         this.setState({readMoreLessButtonText: readLess,
                        visibleContent: <>{this.props.intro} {this.props.content}</>})
       } else {
