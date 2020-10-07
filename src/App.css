@@ -43,7 +43,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 li {
@@ -52,7 +52,7 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color:rgb(239, 69, 44);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -60,6 +60,6 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: white;
   color: rgba(209, 200, 200, 0.884);
 }
