@@ -75,12 +75,12 @@ const zeroProjectContent = (<React.Fragment>
 
                         <p>In the end, the project was successfully carried out.</p>
                         <p>Here are some pictures of the memories of the day.</p>
-                        <img id="blog4pic" src={image1}/>
-                        <img id="blog4pic" src={image2}/>
-                        <img id="blog4pic" src={image3}/>
-                        <img id="blog4pic" src={image4}/>
-                        <img id="blog4pic" src={image5}/>
-                        <img id="blog4pic" src={image6}/>
+                        <img id="blog4pic" src={image1} alt=""/>
+                        <img id="blog4pic" src={image2} alt=""/>
+                        <img id="blog4pic" src={image3} alt=""/>
+                        <img id="blog4pic" src={image4} alt=""/>
+                        <img id="blog4pic" src={image5} alt=""/>
+                        <img id="blog4pic" src={image6} alt=""/>
 
                         <p>Reflection</p>
                           <p>For some participants, they reflected that they enjoyed a good adventure. For some, the project

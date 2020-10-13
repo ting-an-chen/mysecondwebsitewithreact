@@ -30,4 +30,4 @@ Rename the intro and content constants accordingly and make sure they are export
 In the Blog component import both constants similarly:
 `import {postIntro, postContent} from './blog-post-contents/blog-post.js';`
 
-Add a new instance of BlogPost to the Blog component, with the titlet, date, intro and post content.
+Add a new instance of BlogPost to the Blog component, with the title, date, intro and post content.
