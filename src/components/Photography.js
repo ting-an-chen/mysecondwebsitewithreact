@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ModalImage from './photography/ModalImage.js';
+import Album from './photography/Album.js';
 import image1 from '../photography/ALBUM_1/IMG_1.JPG';
 import image2 from '../photography/ALBUM_1/IMG_2.JPG';
 import image3 from '../photography/ALBUM_1/IMG_3.JPG';
@@ -26,69 +26,29 @@ import '../css/modal-image.css';
 import '../css/image-gallery.css';
 
 class Photography extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      modalIsVisible: false,
-      modalImgSource: image1,
-      modalDescription: "description"
-    };
-    this.imageModalClose = this.imageModalClose.bind(this);
-  }
 
-  imageClick(imgSource, description) {
-    this.setState({
-      modalIsVisible: true,
-      modalImgSource: imgSource,
-      modalDescription: description
-    });
-  }
-
-  imageModalClose() {
-    this.setState({
-      modalIsVisible: false
-    });
-  }
-
-  renderViewableImage(src, description) {
-    return <img className="clickable-img" src={src} alt="" 
-    onClick={() => this.imageClick(src, description)}/>
-  }
+  album1 = [
+    {src: image1, description: "descqqq 1"},
+    {src: image2, description: "descqqq 1"},
+    {src: image3, description: "descqqq 1"},
+    {src: image4, description: "descqqq 1"},
+    {src: image5, description: "descqqq 1"},
+    {src: image6, description: "descqqq 1"},
+    {src: image7, description: "descqqq 1"},
+    {src: image8, description: "descqqq 1"},
+    {src: image9, description: "descqqq 1"},
+    {src: image10, description: "descqqq 1"},
+    {src: image11, description: "descqqq 1"},
+    {src: image12, description: "descqqq 1"},
+    {src: image13, description: "descqqq 2"}
+  ];
 
   render() {
     return (
       <div>
         <h2>Photography</h2>
 
-        <div className="images-in-album-container">
-          {this.renderViewableImage(image1, "desc 111")}
-          {this.renderViewableImage(image2, "desc 222")}
-          {this.renderViewableImage(image3, "desc 222")}
-          {this.renderViewableImage(image4, "desc 222")}
-          {this.renderViewableImage(image5, "desc 222")}
-          {this.renderViewableImage(image6, "desc 222")}
-          {this.renderViewableImage(image7, "desc 222")}
-          {this.renderViewableImage(image8, "desc 222")}
-          {this.renderViewableImage(image9, "desc 222")}
-          {this.renderViewableImage(image10, "desc 222")}
-          {this.renderViewableImage(image11, "desc 111")}
-          {this.renderViewableImage(image12, "desc 222")}
-          {this.renderViewableImage(image13, "desc 222")}
-          {this.renderViewableImage(image14, "desc 222")}
-          {this.renderViewableImage(image15, "desc 222")}
-          {this.renderViewableImage(image16, "desc 222")}
-          {this.renderViewableImage(image17, "desc 222")}
-          {this.renderViewableImage(image18, "desc 222")}
-          {this.renderViewableImage(image19, "desc 222")}
-          {this.renderViewableImage(image20, "desc 222")}
-          {this.renderViewableImage(image21, "desc 222")}
-        </div>
-
-        {this.state.modalIsVisible &&
-          <ModalImage
-            imgSource={this.state.modalImgSource}
-            description={this.state.modalDescription}
-            onModalClose={this.imageModalClose} />}
+        <Album albumTitle="first album" images={this.album1} />
 
       </div>
     );
