@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import ModalImage from './ModalImage.js';
+import ModalImage from './photography/ModalImage.js';
 import image1 from '../photography/ALBUM_1/IMG_1.JPG';
 import image2 from '../photography/ALBUM_1/IMG_2.JPG';
 import '../css/modal-image.css';
@@ -30,15 +30,18 @@ class Photography extends Component {
     });
   }
 
+  renderViewableImage(src, description) {
+    return <img className="clickable-img" src={src} alt="" 
+    onClick={() => this.imageClick(src, description)}/>
+  }
+
   render() {
     return (
       <div>
         <h2>Photography</h2>
 
-        <img id="myImg" src={image1} alt=""
-          onClick={() => this.imageClick(image1, "desc 1")} />
-        <img id="myImg" src={image2} alt="" 
-          onClick={() => this.imageClick(image2, "dsc 222 riestnio reant reisnt iernst iresn tierns tiern stienrisetnier nstioearstgio earstoien raoiset ioeranst")}/>
+        {this.renderViewableImage(image1, "desc 111")}
+        {this.renderViewableImage(image2, "desc 222")}
 
         {this.state.modalIsVisible &&
           <ModalImage

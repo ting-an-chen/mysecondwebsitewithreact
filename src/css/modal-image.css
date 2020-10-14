@@ -1,4 +1,4 @@
-#myImg {
+.clickable-img {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -6,7 +6,7 @@
     max-width: 300px;
 }
 
-#myImg:hover {
+.clickable-img:hover {
     opacity: 0.7;
 }
 
@@ -31,7 +31,7 @@
     max-width: 700px;
 }
 
-#caption {
+#modal-caption {
     margin: auto;
     display: block;
     width: 80%;
@@ -43,7 +43,7 @@
 }
 
 .modal-content-image,
-#caption {
+#modal-caption {
     animation-name: zoom;
     animation-duration: 0.6s;
 }
@@ -57,7 +57,7 @@
     }
 }
 
-.close {
+.modal-close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -67,8 +67,8 @@
     transition: 0.3s;
 }
 
-.close:hover,
-.close:focus {
+.modal-close:hover,
+.modal-close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
