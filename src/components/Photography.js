@@ -38,7 +38,7 @@ class Photography extends Component {
         <img id="myImg" src={image1} alt=""
           onClick={() => this.imageClick(image1, "desc 1")} />
         <img id="myImg" src={image2} alt="" 
-          onClick={() => this.imageClick(image2, "dsc 222")}/>
+          onClick={() => this.imageClick(image2, "dsc 222 riestnio reant reisnt iernst iresn tierns tiern stienrisetnier nstioearstgio earstoien raoiset ioeranst")}/>
 
         {this.state.modalIsVisible &&
           <ModalImage
