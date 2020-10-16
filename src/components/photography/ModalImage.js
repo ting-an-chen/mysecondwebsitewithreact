@@ -7,7 +7,7 @@ class ModalImage extends Component {
                 <span onClick={this.props.onModalClose}
                 className="modal-close">&times;</span>
 
-                <div class="modal-content-box"> 
+                <div className="modal-content-box">
                   <img className="modal-content-image" id="img01"
                       src={this.props.imgSource} alt=""/>
                   <p id="modal-caption">{this.props.description}</p>

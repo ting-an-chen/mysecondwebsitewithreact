@@ -13,8 +13,8 @@ class Album extends Component {
     this.imageModalClose = this.imageModalClose.bind(this);
   }
 
-  renderedImages = this.props.images.map((image) =>
-    <img className="clickable-img" src={image.src} alt="" 
+  renderedImages = this.props.images.map((image, index) =>
+    <img key={index} className="clickable-img" src={image.src} alt=""
     onClick={() => this.imageClick(image.src, image.description)}/>
   );
 
