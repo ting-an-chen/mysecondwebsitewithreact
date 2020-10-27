@@ -20,7 +20,7 @@ class Photography extends Component {
                </div>
             </Link>
         </div>
-      );
+                        );
   }
 
   render() {
