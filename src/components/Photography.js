@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import album1_image12 from '../photography/ALBUM_1/IMG_12.JPG';
-import album2_image11 from '../photography/ALBUM_2/IMG_11.JPG';
+import album1_image12 from '../photography/ALBUM_1/IMG_12.jpeg';
+import album2_image11 from '../photography/ALBUM_2/IMG_11.jpeg';
 
 import '../css/modal-image.css';
 import '../css/image-gallery.css';

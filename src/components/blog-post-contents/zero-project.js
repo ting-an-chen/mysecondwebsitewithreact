@@ -1,10 +1,10 @@
 import React from 'react';
-import image1 from '../../photography/blog-pics/zero-project/IMG_1.JPG';
-import image2 from '../../photography/blog-pics/zero-project/IMG_2.JPG';
-import image3 from '../../photography/blog-pics/zero-project/IMG_3.JPG';
-import image4 from '../../photography/blog-pics/zero-project/IMG_4.JPG';
-import image5 from '../../photography/blog-pics/zero-project/IMG_5.JPG';
-import image6 from '../../photography/blog-pics/zero-project/IMG_6.JPG';
+import image1 from '../../photography/blog-pics/zero-project/IMG_1.jpeg';
+import image2 from '../../photography/blog-pics/zero-project/IMG_2.jpeg';
+import image3 from '../../photography/blog-pics/zero-project/IMG_3.jpeg';
+import image4 from '../../photography/blog-pics/zero-project/IMG_4.jpeg';
+import image5 from '../../photography/blog-pics/zero-project/IMG_5.jpeg';
+import image6 from '../../photography/blog-pics/zero-project/IMG_6.jpeg';
 
 const zeroProjectIntro = (<React.Fragment>
             <p>Background</p>

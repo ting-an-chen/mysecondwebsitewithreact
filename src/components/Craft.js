@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 import '../css/craft.css';
 
-import image_cutboard from '../photography/profoliopics/IMG_0095.JPG';
-import image_babies from '../photography/profoliopics/IMG_0141.JPG';
-import image_space from '../photography/profoliopics/IMG_4045.JPG';
-import image_snowman from '../photography/profoliopics/IMG_2013.JPG';
-import image_plushy from '../photography/profoliopics/IMG_9817.JPG';
+import image_cutboard from '../photography/profoliopics/IMG_0095.jpeg';
+import image_babies from '../photography/profoliopics/IMG_0141.jpeg';
+import image_space from '../photography/profoliopics/IMG_4045.jpeg';
+import image_snowman from '../photography/profoliopics/IMG_2013.jpeg';
+import image_plushy from '../photography/profoliopics/IMG_9817.jpeg';
 
 class Craft extends Component {
 
